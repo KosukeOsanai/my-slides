@@ -1,0 +1,4 @@
+{
+  "markdown.marp.themes": ["./themes/my-slideshow-theme.css"],
+  "markdown.marp.html": "on"
+}

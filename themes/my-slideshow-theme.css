@@ -1,0 +1,493 @@
+/* @theme my-slideshow-theme */
+
+@import "default";
+
+/*
+  PHPカンファレンス香川2025 前夜祭スライドを参照した Marp テーマ。
+
+  カスタムクラス:
+    title       … タイトルスライド
+    message     … 1枚1メッセージ
+    (なし)      … 通常スライド
+    profile     … 自己紹介スライド
+    promo       … 大きな画像 + 箇条書き（告知・宣伝）
+    references  … 参考文献（リンク多め）
+
+    --color-accentに設定する値
+    #6aa84f　PHPCon関西2025のような緑色
+    #008000　PHPCon新潟のような青色
+*/
+
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --color-muted: #666666;
+  --color-dim: #c8c8c8;
+  --color-accent: #6aa84f;
+  --color-code-bg: #f4f7f2;
+  --slide-pad-x: 56px;
+  --slide-pad-y: 44px;
+  --border-width: 10px;
+  --title-rule: 4px;
+  --header-font-size: 44px;
+  --header-line-height: 1.35;
+  --header-padding-bottom: 16px;
+  --header-gap: 28px;
+  --content-top: calc(
+    var(--slide-pad-y) + var(--header-font-size) * var(--header-line-height) +
+      var(--header-padding-bottom) + var(--title-rule) + var(--header-gap)
+  );
+}
+
+section {
+  box-sizing: border-box;
+  width: 1280px;
+  height: 720px;
+  padding: var(--slide-pad-y) var(--slide-pad-x) 40px;
+  color: var(--color-fg);
+  background: var(--color-bg);
+  border: var(--border-width) solid var(--color-accent);
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP",
+    "Yu Gothic Medium", YuGothic, Meiryo, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  /* default テーマの place-content: safe center を上書きし、本文を上端から積む */
+  place-content: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-fg);
+  font-weight: 700;
+}
+
+/* ========== 共通ヘッダー（通常 / profile / message 見出し+本文） ========== */
+section:not(.title) h1 {
+  position: absolute;
+  top: var(--slide-pad-y);
+  left: var(--slide-pad-x);
+  right: var(--slide-pad-x);
+  z-index: 1;
+  width: auto;
+  margin: 0;
+  padding: 0 0 var(--header-padding-bottom);
+  font-size: var(--header-font-size);
+  line-height: var(--header-line-height);
+  text-align: left;
+  border-bottom: var(--title-rule) solid var(--color-accent);
+}
+
+section:not(.title):not(.message),
+section.profile,
+section.message:has(h1:not(:only-child)) {
+  padding-top: var(--content-top);
+}
+
+/* 通常スライド: 本文を見出しのすぐ左下から始める */
+section:not(.title):not(.message):not(.profile):not(.promo) {
+  padding-top: calc(var(--content-top) - 16px);
+}
+
+section:not(.title):not(.message):not(.profile):not(.promo) > p,
+section:not(.title):not(.message):not(.profile):not(.promo) > ul,
+section:not(.title):not(.message):not(.profile):not(.promo) > ol {
+  margin-top: 0;
+}
+
+section:not(.title):not(.message):not(.profile):not(.promo) ul,
+section:not(.title):not(.message):not(.profile):not(.promo) ol {
+  padding-left: 1em;
+}
+
+section h2 {
+  margin: 0.2em 0 0.4em;
+  font-size: 1.15em;
+}
+
+p {
+  margin: 0.35em 0;
+}
+
+ul,
+ol {
+  margin: 0.15em 0 0;
+  padding-left: 1.35em;
+}
+
+li {
+  margin: 0.28em 0;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.15em;
+  font-size: 0.86em;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul {
+  list-style-type: circle;
+}
+
+li::marker {
+  color: var(--color-fg);
+  font-weight: 700;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+strong {
+  font-weight: 700;
+}
+
+code {
+  font-family: "JetBrains Mono", "Source Han Code JP", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  font-weight: 500;
+  background: var(--color-code-bg);
+  padding: 0.05em 0.35em;
+  border-radius: 4px;
+}
+
+pre {
+  margin: 0.6em 0 0;
+  padding: 0.7em 0.9em;
+  background: var(--color-code-bg);
+  border-left: 6px solid var(--color-accent);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.62em;
+  line-height: 1.45;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+blockquote {
+  margin: 0.35em 0 0.45em;
+  padding: 0.45em 0.85em;
+  border-left: 6px solid var(--color-accent);
+  background: var(--color-code-bg);
+  font-size: 0.72em;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+table {
+  width: 100%;
+  margin: 0.25em 0 0.35em;
+  border-collapse: collapse;
+  font-size: 0.72em;
+  line-height: 1.4;
+}
+
+th,
+td {
+  padding: 0.32em 0.5em;
+  text-align: left;
+  border-bottom: 1px solid #d7e3d1;
+}
+
+th {
+  background: var(--color-code-bg);
+  font-weight: 700;
+}
+
+.source {
+  margin-top: 0.7em !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  width: 100%;
+  align-items: start;
+}
+
+.two-col > div > p:first-child,
+.two-col > div > p:first-child strong {
+  margin: 0 0 0.15em;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.two-col pre {
+  margin-top: 0.25em;
+}
+
+img {
+  display: block;
+  background: transparent;
+}
+
+footer,
+header,
+section::after {
+  color: var(--color-muted);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.muted {
+  color: var(--color-dim);
+  font-weight: 600;
+}
+
+/* ========== タイトルスライド ========== */
+section.title {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+section.title h1 {
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0 8px 28px;
+  font-size: 42px;
+  line-height: 1.45;
+  text-align: center;
+  border-bottom: var(--title-rule) solid var(--color-accent);
+}
+
+section.title h2,
+section.title h3,
+section.title p {
+  margin: 0.12em 0 0;
+  color: var(--color-muted);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+}
+
+section.title h2 {
+  margin-top: 8px;
+}
+
+/* ========== メッセージスライド ========== */
+section.message {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.message h1:only-child {
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  width: auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+  font-size: 48px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+section.message:has(h1:only-child) {
+  padding-top: var(--slide-pad-y);
+}
+
+section.message h2,
+section.message p {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* ========== 自己紹介スライド ========== */
+section.profile {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 48px;
+  place-content: center;
+  align-content: center;
+  justify-content: start;
+  align-items: center;
+}
+
+section.profile > img,
+section.profile > p:has(> img:only-child) {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  margin: 0;
+  align-self: center;
+}
+
+section.profile > img,
+section.profile > p:has(> img:only-child) img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background: #f0f0f0;
+}
+
+section.profile > p:has(> img:only-child) {
+  line-height: 0;
+}
+
+section.profile > p:not(:has(img)),
+section.profile > ul,
+section.profile > ol,
+section.profile > .profile-body {
+  grid-column: 2;
+}
+
+section.profile > p:not(:has(img)):first-of-type,
+section.profile .profile-body > p:first-child,
+section.profile .profile-name {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+section.profile > p:not(:has(img)):nth-of-type(2),
+section.profile .profile-body > p:nth-child(2),
+section.profile .profile-handle {
+  margin: 0.05em 0 0;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+section.profile > ul,
+section.profile > ol,
+section.profile .profile-body > ul,
+section.profile .profile-body > ol {
+  margin: 0.55em 0 0;
+  padding-left: 1.2em;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+section.profile .profile-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-row: 1;
+  min-width: 0;
+}
+
+section.profile .profile-body > ul,
+section.profile .profile-body > ol {
+  width: 100%;
+}
+
+/* ========== 告知・宣伝スライド（大きな画像 + 箇条書き） ========== */
+section.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+section.promo ul,
+section.promo ol {
+  margin: 0 0 12px;
+  flex: 0 0 auto;
+}
+
+section.promo li {
+  margin: 0.12em 0;
+}
+
+section.promo > img,
+section.promo > p:has(> img:only-child) {
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.promo > img,
+section.promo > p:has(> img:only-child) img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+section.promo > p:has(> img:only-child) {
+  line-height: 0;
+}
+
+section.promo > p:not(:has(img)) {
+  margin: 12px 0 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--color-fg);
+  text-align: center;
+}
+
+section.promo > p:not(:has(img)) a {
+  color: var(--color-fg);
+  text-decoration: none;
+}
+
+/* ========== 参考文献スライド ========== */
+section.references ol {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+section.references li {
+  margin: 0.22em 0;
+}
+
+section.references li strong {
+  font-size: 18px;
+}
+
+section.references li a {
+  display: block;
+  margin-top: 0.06em;
+  font-size: 15px;
+  font-weight: 500;
+  word-break: break-all;
+  line-height: 1.3;
+}
