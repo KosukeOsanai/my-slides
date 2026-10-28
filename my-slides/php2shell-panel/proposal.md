@@ -284,5 +284,5 @@ PHP2Shell ならではの特徴（PHP 本体の脆弱性、影響バージョン
 
 - PHPカンファレンス新潟2026 公式サイト: https://phpcon.niigata.jp/
 - 実行委員長 大沼佑樹「PHPカンファレンス新潟2026に向けて」（テーマの意味）: https://note.com/nicozetsche/n/n6905b340522a
-- タイムテーブル（fortee）: https://fortee.jp/phpconniigata-2026/timetable
+- タイムテーブル（fortee API）: https://fortee.jp/phpconniigata-2026/api/timetable
 - 本リポジトリの調査メモ: `my-slides/20261030-niigata5mintech/research-memo.md`
