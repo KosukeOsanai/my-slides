@@ -216,3 +216,28 @@
 - 懇親会の開始時刻・会場
 - 当日スタッフ募集の有無
 - 会場のフロアマップ（Vue Fesの「会場マップ」に相当するスライドは作っていない）
+
+---
+
+## 追記（2026/10/29）: 冒頭の PHP2Shell の導入（2〜5枚目）
+
+流れ: PHP2Shell の社会的影響 →「それだけ多くのサービスをPHPが支えている」→「PHPコミュニティに入ってみませんか？」→ 本題。
+
+スライドで使っている事実（複数の報道・ベンダー解説で一致したものだけ）:
+
+- 2026/10/21、PHP本体の重大な脆弱性2件（CVE-2026-109618 / CVE-2026-109619、通称 PHP2Shell）の修正版 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35 が公開
+- CVSS v4.0 9.2、認証なしでリモートからコード実行のおそれ
+- フレームワーク・CMSの更新では直らず、PHP本体の更新が必要
+- 国内でも多くのWebサービスが緊急メンテナンス（個別のサービス名・停止時間は出典ごとに食い違うため、スライドでは出さない）
+- 高市首相が21日夜、Xで修正パッチの「可及的速やか」な適用を呼びかけ（Bloomberg・毎日新聞・日本経済新聞・ITmedia の見出しより）
+
+> **注意**: 作成環境のネットワーク制限で、報道・php.net の本文には直接アクセスできていない。WebSearch の結果（見出し・要約）と発表者本人の説明で一致した範囲だけを使っている。登壇前に一次情報で確認すること。
+
+参照（検索結果で確認した見出し）:
+
+- Bloomberg「高市首相、PHP脆弱性の修正『可及的速やかに』」 https://www.bloomberg.com/jp/news/articles/2026-10-21/TNA3XZKJH6V900
+- 日本経済新聞「PHPの脆弱性発覚、高市首相『ウェブサイトの一時停止も有効』」 https://www.nikkei.com/article/DGXZQOUA21BHR0R21C26A0000000/
+- ITmedia NEWS「高市総理『大至急、PHPパッチ適用を』Xで異例の要請」 https://www.itmedia.co.jp/news/article/2610/22/2000002483/
+- Datadog Security Labs（CVSS 9.2） https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/
+- Greenbone（修正版） https://www.greenbone.net/en/blog/php2shell-remote-code-execution-cve-2026-109618-cve-2026-109619/
+- 関連: `my-slides/php2shell-panel/proposal.md`
