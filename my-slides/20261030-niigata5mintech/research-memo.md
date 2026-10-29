@@ -241,3 +241,25 @@
 - Datadog Security Labs（CVSS 9.2） https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/
 - Greenbone（修正版） https://www.greenbone.net/en/blog/php2shell-remote-code-execution-cve-2026-109618-cve-2026-109619/
 - 関連: `my-slides/php2shell-panel/proposal.md`
+
+---
+
+## 追記（2026/10/29）: 構成の変更と「1. PHPコミュニティについて」
+
+構成: 導入（PHP2Shell）→ ゴール（PHPコミュニティに入ってみませんか？／入口は 11/14 朱鷺メッセ）→ 1. PHPコミュニティについて → 2. PHPカンファレンス新潟2026の紹介 → 3. セッションと、セッション以外の交流。
+
+2026年の各地のPHPカンファレンス（WebSearch の要約ベース。本文は未確認。日付は口頭で言わない）:
+
+| イベント | 時期・場所（検索結果より） |
+|---|---|
+| PHPerKaigi 2026 | 2026/3/20〜22、東京・中野 |
+| PHPカンファレンス小田原2026 | 2026/4/11 |
+| フロントエンド・PHPカンファレンス北海道2026 | 2026/6/6、札幌 |
+| PHPカンファレンス2026（東京） | 2026/7/20 |
+| PHPカンファレンス愛媛2026 | 2026/10/3、松山 |
+| PHPカンファレンス新潟2026 | 2026/11/14、朱鷺メッセ |
+| PHPカンファレンス関西2026 | 2027年1月（Findy は 1/15、Qiita のまとめは 1/16 と食い違い） |
+
+- 出典: 「2026年に開催される全国のPHPカンファレンスのまとめ」 https://qiita.com/akase244/items/7ee3fa8be2c52bc9a4cc 、Findy Conference https://conference.findy-code.io/events/kphpug-2026/289 、PHPカンファレンス愛媛2026 https://phpcon.ehime.jp/
+- 関西PHP勉強会は月一開催（あきさんの自己紹介より、note セッション紹介 第3弾）
+- 「言語を問わず17本／初心者向け8本／初登壇3人」は新潟2026の採択の数字（本メモの前半）
