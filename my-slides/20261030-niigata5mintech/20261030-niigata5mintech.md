@@ -166,6 +166,7 @@ PHPを書いていない人も、毎日PHPで動くサービスを使ってい�
 * **新潟にいながら**、全国のエンジニアと直接話せる
 * ほかの言語のコミュニティをのぞくと、**自分の言語を見る目も変わる**
 * 明日の **KomeKaigi** で生まれた縁を、**2週間後に朱鷺メッセで**
+  * ariakiさんは、KomeKaigi と新潟の **両方の運営** に関わっています
 
 <!--
 1点目で導入の PHP2Shell を回収する。
@@ -292,6 +293,215 @@ fortee の「初心者向け」タグ × 「言語を問わずおすすめ」の
 アイコンは fortee（公式サイトと同じ画像）。赤間さんはアイコン未登録のため fortee の既定アイコン。
 並びはタイムテーブル順。
 -->
+
+---
+
+<!-- _class: message -->
+
+# PHPを書いている方へ：<br>コアスタッフがあえて選ぶ3選
+
+---
+
+# あえて選ぶ、聴きたいセッション3選
+
+| 時刻 | セッション | 登壇者 |
+|---|---|---|
+| 10:50 B | エラーチャンネルのボールを拾い続けて鍛えるエンジニアの地力 | meiheiさん |
+| 11:20 B | OSSコントリビュート未経験者がLaravelに新規メソッドを追加するまでの話 | あすと.さん |
+| 14:40 B | AI駆動で挑む！？レガシーPHPプロダクトのバージョンアップへの軌跡 | ざきさん |
+
+<p class="note"><strong>PHPを書いている方向け。3本とも Track B</strong>：時間が重ならないので、1日で全部聴けます</p>
+
+<!--
+「おすすめ」ではなく、コアスタッフ個人として「自分が聴きたい」3本。
+共通点は、目の前の現場から一歩踏み出した人の実体験であること。
+-->
+
+---
+
+# 1. エラーのボールを拾い続ける<span class="tag">言語を問わず</span>
+
+<div class="pick">
+<img src="./images/speakers/02-meihei.jpg" alt="meiheiさん">
+<div>
+<p class="pick-title">エラーチャンネルのボールを拾い続けて鍛えるエンジニアの地力</p>
+<p class="pick-speaker">meiheiさん（@app1e_s）｜10:50 Track B</p>
+</div>
+</div>
+
+* **選んだ理由**
+  * エラー対応は、誰かが拾わないと流れていく **地味な仕事**
+  * それを拾い続けることが **地力とオーナーシップ** になる、という視点
+  * 言語を問わず、**明日の自分の仕事** にそのまま持ち帰れる
+
+---
+
+# 2. はじめてのLaravelコントリビュート<span class="tag">初登壇</span>
+
+<div class="pick">
+<img src="./images/speakers/04-asuto.png" alt="あすと.さん">
+<div>
+<p class="pick-title">OSSコントリビュート未経験者がLaravelに新規メソッドを追加するまでの話</p>
+<p class="pick-speaker">あすと.さん（@ast_and_kaya）｜11:20 Track B</p>
+</div>
+</div>
+
+* **選んだ理由**
+  * 「OSSに貢献したい」と思っても、**最初のPRまでが遠い**
+  * 未経験から **`whenEnum()` のPRがマージされるまで** の流れが聞ける
+  * Laravelの哲学にも触れる。**Laravelを知らなくてもwelcome**
+
+---
+
+# 3. AIレビューでバージョンアップ<span class="tag">初登壇</span>
+
+<div class="pick">
+<img src="./images/speakers/10-zaki.jpg" alt="ざきさん">
+<div>
+<p class="pick-title">AI駆動で挑む！？レガシーPHPプロダクトのバージョンアップへの軌跡</p>
+<p class="pick-speaker">ざきさん（@k_yamasaki_zaki）｜14:40 Track B</p>
+</div>
+</div>
+
+* **選んだ理由**
+  * **8万テーブルの生PHP** を、**PHP 7.3 から 8.4** へ
+  * AIにレビューさせながら進める、**AI時代のレガシー改修** の実例
+  * きれいな成功談だけでなく、**失敗談** も聞ける
+
+---
+
+<!-- _class: message -->
+
+# セッション以外の交流
+
+---
+
+# 1人参加でも大丈夫！
+
+* **朝 10:15〜**：3〜5人のグループで自己紹介
+  * お題には「好きな日本酒」「行ってみたい新潟のスポット」も
+* **昼 13:00〜14:00**：アンカンファレンス
+  * その場で話したいことを持ち寄って話せます
+* **夜**：懇親会で、1日で知り合った人ともう一歩深く
+* **途中参加もOK**：「午前だけ」「LTだけ」でも
+
+<!--
+お題と途中参加OKは KomeKaigi 参加者向け note と同じ内容。
+旧版の「IRT」は、note の「OST（Open Space Technology）」と食い違っていたため、確認できるまで外している。
+-->
+
+---
+
+# セッション間は新潟企業様の飲食物で休憩
+
+<div class="bento">
+<figure><img src="./images/amazake-kouji.jpg" alt="今代司の甘酒"><figcaption>今代司 の甘酒</figcaption></figure>
+<figure><div class="logo-box"><img src="./images/ararat-crews-logo.png" alt="ARARAT CREWS"></div><figcaption>ARARAT CREWS のコーヒー</figcaption></figure>
+</div>
+
+<p class="note">画像：今代司酒造 https://imayotsukasa.co.jp/　ロゴ：ARARAT CREWS</p>
+
+<!--
+甘酒の写真は今代司酒造の商品ページ「麹・発酵甘酒 麹（ノン・アルコール）」より。
+https://imayotsukasa.co.jp/product/kouji/132/
+ARARAT CREWS のロゴは NEWSCAST のプレスリリース（会社概要）に掲載のもの。
+https://newscast.jp/news/0963261 （公式サイト nsaveararat.com は 2026/10/21 時点で接続できず）
+-->
+
+---
+
+# ランチは新潟三新軒様のお弁当
+
+* 参加チケットに含まれています
+* お昼は、スポンサー企業の **エレベーターピッチ・LT** も
+
+<div class="bento">
+<figure><img src="./images/bento-2585.jpg" alt="新潟産コシヒカリと海鮮のうまいもん寿司"><figcaption>新潟産コシヒカリと海鮮のうまいもん寿司</figcaption></figure>
+<figure><img src="./images/bento-794.jpg" alt="村上牛しぐれ"><figcaption>村上牛しぐれ</figcaption></figure>
+</div>
+
+<!--
+画像出典: 新潟三新軒 商品ページ（新潟産コシヒカリと海鮮のうまいもん寿司 / 村上牛しぐれ）
+https://www.niigata-sanshinken.co.jp/products/2585/ , https://www.niigata-sanshinken.co.jp/products/794/
+-->
+
+<p class="note">画像：新潟三新軒 https://www.niigata-sanshinken.co.jp/</p>
+
+---
+# 懇親会は新潟グルメで舌鼓を打ちましょう
+
+* **懇親会のごはん**：昨年は利き酒コーナーや、新潟名物 **タレカツ** も
+
+---
+
+# 会場へのアクセス
+
+* **朱鷺メッセ**（新潟市中央区万代島）
+* 新潟駅から **路線バスで約10分**（17番のりば・大人260円）
+* 歩いても **約20分**
+* 地元だから、**懇親会まで気軽に** 参加できます
+
+<!--
+バスは公式note「おすすめホテル10選」の記載（新潟駅17番のりば、朱鷺メッセ方面）。
+徒歩・バスの所要時間は公式サイトの記載。
+-->
+
+---
+
+# まとめ
+
+1. PHPは社会を支えている。**PHPコミュニティに入ってみませんか？**
+2. 入口は **11/14(土) 朱鷺メッセ**。まずは **Track A の7本** から
+3. 朝の自己紹介から夜の懇親会まで、**人とつながれる**
+
+---
+
+<!-- _class: message -->
+
+# 11/14(土)は朱鷺メッセに行きましょう！
+
+---
+<!-- _class: promo -->
+
+# チケットはこちら
+
+* 一般 3,500円 / 懇親会つき 8,000円（お弁当つき）
+* `PHPCON-NIIGATA-000XYZNI` を入力すると500円安くなります！
+* 懇親会つきは **11/10(火)まで**
+
+![チケット販売ページのQRコード](./images/ticket-qr.png)
+
+https://conference.findy-code.io/conferences/phpconniigata-2026/31/registration
+
+<!--
+QRを出したまま少し間を取る。読み取る時間をあげる。
+購入後の返金は不可。学生向けは別途案内予定。
+-->
+
+
+---
+
+<!-- _class: profile -->
+
+# 自己紹介
+
+![profile](../../themes/my-sns-icon.jpg)
+
+<div class="profile-body">
+
+<p class="profile-name">おさない</p>
+
+<p class="profile-handle">X: @000sak000</p>
+
+- PHPカンファレンス新潟2026 コアスタッフ
+
+</div>
+
+---
+
+<!-- _class: message -->
+
+# 補足：セッションをテーマ別に見る<span class="sub">Appendix</span>
 
 ---
 
@@ -425,198 +635,3 @@ PHP以外がメインの方は「言語を問わず」の多い②③⑤から�
 
 <p class="note"><strong>こんな人に聴いてほしい</strong>：コードの外から刺激がほしい人</p>
 
-
----
-
-<!-- _class: message -->
-
-# コアスタッフが<br>あえて選ぶ3選
-
----
-
-# あえて選ぶ、聴きたいセッション3選
-
-| 時刻 | セッション | 登壇者 |
-|---|---|---|
-| 10:50 B | エラーチャンネルのボールを拾い続けて鍛えるエンジニアの地力 | meiheiさん |
-| 11:20 B | OSSコントリビュート未経験者がLaravelに新規メソッドを追加するまでの話 | あすと.さん |
-| 14:40 B | AI駆動で挑む！？レガシーPHPプロダクトのバージョンアップへの軌跡 | ざきさん |
-
-<p class="note"><strong>3本とも Track B</strong>：時間が重ならないので、1日で全部聴けます</p>
-
-<!--
-「おすすめ」ではなく、コアスタッフ個人として「自分が聴きたい」3本。
-共通点は、目の前の現場から一歩踏み出した人の実体験であること。
--->
-
----
-
-# 1. エラーのボールを拾い続ける<span class="tag">言語を問わず</span>
-
-<div class="pick">
-<img src="./images/speakers/02-meihei.jpg" alt="meiheiさん">
-<div>
-<p class="pick-title">エラーチャンネルのボールを拾い続けて鍛えるエンジニアの地力</p>
-<p class="pick-speaker">meiheiさん（@app1e_s）｜10:50 Track B</p>
-</div>
-</div>
-
-* **選んだ理由**
-  * エラー対応は、誰かが拾わないと流れていく **地味な仕事**
-  * それを拾い続けることが **地力とオーナーシップ** になる、という視点
-  * 言語を問わず、**明日の自分の仕事** にそのまま持ち帰れる
-
----
-
-# 2. はじめてのLaravelコントリビュート<span class="tag">初登壇</span>
-
-<div class="pick">
-<img src="./images/speakers/04-asuto.png" alt="あすと.さん">
-<div>
-<p class="pick-title">OSSコントリビュート未経験者がLaravelに新規メソッドを追加するまでの話</p>
-<p class="pick-speaker">あすと.さん（@ast_and_kaya）｜11:20 Track B</p>
-</div>
-</div>
-
-* **選んだ理由**
-  * 「OSSに貢献したい」と思っても、**最初のPRまでが遠い**
-  * 未経験から **`whenEnum()` のPRがマージされるまで** の流れが聞ける
-  * Laravelの哲学にも触れる。**Laravelを知らなくてもwelcome**
-
----
-
-# 3. AIレビューでバージョンアップ<span class="tag">初登壇</span>
-
-<div class="pick">
-<img src="./images/speakers/10-zaki.jpg" alt="ざきさん">
-<div>
-<p class="pick-title">AI駆動で挑む！？レガシーPHPプロダクトのバージョンアップへの軌跡</p>
-<p class="pick-speaker">ざきさん（@k_yamasaki_zaki）｜14:40 Track B</p>
-</div>
-</div>
-
-* **選んだ理由**
-  * **8万テーブルの生PHP** を、**PHP 7.3 から 8.4** へ
-  * AIにレビューさせながら進める、**AI時代のレガシー改修** の実例
-  * きれいな成功談だけでなく、**失敗談** も聞ける
-
----
-
-<!-- _class: message -->
-
-# セッション以外の交流
-
----
-
-# 1人参加でも大丈夫！
-
-* 双方向コミュニケーションができるコンテンツを用意
-  * **朝 10:15〜10:35 自己紹介コンテンツ**
-  * 3〜5人のグループで、お題に沿って自己紹介
-  *  **昼 13:00〜14:00 アンカンファレンス、IRT**
-* 朝昼で知り合いを作って懇親会ぼっちを避けましょう！
-
----
-
-# セッション間は新潟企業様の飲食物で休憩
-
-<div class="bento">
-<figure><img src="./images/amazake-kouji.jpg" alt="今代司の甘酒"><figcaption>今代司 の甘酒</figcaption></figure>
-<figure><div class="logo-box"><img src="./images/ararat-crews-logo.png" alt="ARARAT CREWS"></div><figcaption>ARARAT CREWS のコーヒー</figcaption></figure>
-</div>
-
-<p class="note">画像：今代司酒造 https://imayotsukasa.co.jp/　ロゴ：ARARAT CREWS</p>
-
-<!--
-甘酒の写真は今代司酒造の商品ページ「麹・発酵甘酒 麹（ノン・アルコール）」より。
-https://imayotsukasa.co.jp/product/kouji/132/
-ARARAT CREWS のロゴは NEWSCAST のプレスリリース（会社概要）に掲載のもの。
-https://newscast.jp/news/0963261 （公式サイト nsaveararat.com は 2026/10/21 時点で接続できず）
--->
-
----
-
-# ランチは新潟三新軒様のお弁当
-
-* 参加チケットに含まれています
-
-<div class="bento">
-<figure><img src="./images/bento-2585.jpg" alt="新潟産コシヒカリと海鮮のうまいもん寿司"><figcaption>新潟産コシヒカリと海鮮のうまいもん寿司</figcaption></figure>
-<figure><img src="./images/bento-794.jpg" alt="村上牛しぐれ"><figcaption>村上牛しぐれ</figcaption></figure>
-</div>
-
-<!--
-画像出典: 新潟三新軒 商品ページ（新潟産コシヒカリと海鮮のうまいもん寿司 / 村上牛しぐれ）
-https://www.niigata-sanshinken.co.jp/products/2585/ , https://www.niigata-sanshinken.co.jp/products/794/
--->
-
-<p class="note">画像：新潟三新軒 https://www.niigata-sanshinken.co.jp/</p>
-
----
-# 懇親会は新潟グルメで舌鼓を打ちましょう
-
-* **懇親会のごはん**：昨年は利き酒コーナーや、新潟名物 **タレカツ** も
-
----
-
-# 会場へのアクセス
-
-* **朱鷺メッセ**（新潟市中央区万代島）
-* 新潟駅から **路線バスで約10分**（17番のりば・大人260円）
-* 歩いても **約20分**
-* 地元だから、**懇親会まで気軽に** 参加できます
-
-<!--
-バスは公式note「おすすめホテル10選」の記載（新潟駅17番のりば、朱鷺メッセ方面）。
-徒歩・バスの所要時間は公式サイトの記載。
--->
-
----
-
-# まとめ
-
-1. PHPは社会を支えている。**PHPコミュニティに入ってみませんか？**
-2. 入口は **11/14(土) 朱鷺メッセ**。まずは **Track A の7本** から
-3. 朝の自己紹介から夜の懇親会まで、**人とつながれる**
-
----
-
-<!-- _class: message -->
-
-# 11/14(土)は朱鷺メッセに行きましょう！
-
----
-<!-- _class: promo -->
-
-# チケットはこちら
-
-* 一般 3,500円 / 懇親会つき 8,000円（お弁当つき）
-* `PHPCON-NIIGATA-000XYZNI` を入力すると500円安くなります！
-
-![チケット販売ページのQRコード](./images/ticket-qr.png)
-
-https://conference.findy-code.io/conferences/phpconniigata-2026/31/registration
-
-<!--
-QRを出したまま少し間を取る。読み取る時間をあげる。
-購入後の返金は不可。学生向けは別途案内予定。
--->
-
-
----
-
-<!-- _class: profile -->
-
-# 自己紹介
-
-![profile](../../themes/my-sns-icon.jpg)
-
-<div class="profile-body">
-
-<p class="profile-name">おさない</p>
-
-<p class="profile-handle">X: @000sak000</p>
-
-- PHPカンファレンス新潟2026 コアスタッフ
-
-</div>
