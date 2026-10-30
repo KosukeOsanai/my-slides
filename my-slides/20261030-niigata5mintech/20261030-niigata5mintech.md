@@ -50,6 +50,9 @@ style: |
   img.emoji { display: inline !important; height: 1em; width: auto; margin: 0 0.05em; vertical-align: -0.1em; }
   .hl { display: block; margin-top: 2px; color: var(--color-muted); font-size: 0.82em; font-weight: 500; }
   section.compact table { font-size: 0.58em; }
+  section.route table { font-size: 0.6em; }
+  section.route td, section.route th { padding: 0.18em 0.5em; }
+  section.route .note { margin: 0 0 0.3em; font-size: 20px; }
   section.compact td, section.compact th { padding: 0.22em 0.5em; }
   .sub { display: block; margin-top: 8px; color: var(--color-muted); font-size: 28px; font-weight: 600; }
 ---
@@ -392,75 +395,61 @@ PHP歴が短い方は③から、PHP以外がメインの方は「言語を問�
 
 <!-- _class: message -->
 
-# PHPを書いている方へ：<br>コアスタッフがあえて選ぶ3選
+# モデルタイムテーブル<span class="sub">Model routes</span>
 
 ---
 
-# あえて選ぶ、聴きたいセッション3選
+<!-- _class: sessions route -->
 
-| 時刻 | セッション | 登壇者 |
+# モデルタイムテーブル ① はじめての方
+
+<p class="note">カンファレンスやPHPがはじめての方へ。<strong>初心者向け</strong> のトークを軸に、設計・OSS・テストの基本を一通り</p>
+
+| 時刻 | 聴くもの・やること | ポイント |
 |---|---|---|
-| 10:50 B | エラーチャンネルのボールを拾い続けて鍛えるエンジニアの地力 | meiheiさん |
-| 11:20 B | OSSコントリビュート未経験者がLaravelに新規メソッドを追加するまでの話 | あすと.さん |
-| 14:40 B | AI駆動で挑む！？レガシーPHPプロダクトのバージョンアップへの軌跡 | ざきさん |
-
-<p class="note"><strong>PHPを書いている方向け。3本とも Track B</strong>：時間が重ならないので、1日で全部聴けます</p>
+| 10:00 | オープニング → **10:15 グループで自己紹介** | 最初の話し相手ができる |
+| 10:50 A | 梶川琢馬さん：疎結合と結合バランス<span class="tag">初心者向け</span><span class="tag">言語を問わず</span> | 設計を3つの軸で整理 |
+| 11:20 B | あすと.さん：はじめてのLaravelコントリビュート<span class="tag">初登壇</span> | 未経験からPRマージまで |
+| 11:50 A | tadsanさん：PHPの静的解析<span class="tag">言語を問わず</span> | Ruby・Pythonと比べる |
+| 12:10 | お昼（お弁当）・12:30 スポンサーのエレベーターピッチ／LT | 各社の技術が聞ける |
+| 13:00 | アンカンファレンス・OST | その場でテーマを持ち寄る |
+| 14:10 A | 河瀨翔吾さん：Eloquentでリポジトリパターン | 設計の「やる意味」 |
+| 14:40 A | 小泉岳人さん：生成AIでチーム開発する7つのポイント<span class="tag">初心者向け</span><span class="tag">言語を問わず</span> | 漫画で整理 |
+| 15:10 B | 赤間仁志さん：PHPUnitを爆速に<span class="tag">言語を問わず</span> | 10分超を60秒に |
+| 15:40 A | ゆずねりさん：WebPはなぜ軽いのか<span class="tag">初心者向け</span><span class="tag">言語を問わず</span> | 数式なしの図で |
+| 16:15〜 | LT：**ポチさん**<span class="tag">初登壇</span>（個人開発）・**永瀬さん**（写経で学び直し）・**河村さん**（まず動く） | 同じ目線の話 |
+| 17:30 | エンディング → **懇親会** | 1日で知り合った人ともう一歩深く |
 
 <!--
-「おすすめ」ではなく、コアスタッフ個人として「自分が聴きたい」3本。
-共通点は、目の前の現場から一歩踏み出した人の実体験であること。
+初心者向けタグを軸に選んだルート（research-memo.md の旧ルートA）。11:20 と 15:10 は初心者向けタグがないので、初心者が入りやすい方を選んだ。
 -->
 
 ---
 
-# 1. エラーのボールを拾い続ける<span class="tag">言語を問わず</span>
+<!-- _class: sessions route -->
 
-<div class="pick">
-<img src="./images/speakers/02-meihei.jpg" alt="meiheiさん">
-<div>
-<p class="pick-title">エラーチャンネルのボールを拾い続けて鍛えるエンジニアの地力</p>
-<p class="pick-speaker">meiheiさん（@app1e_s）｜10:50 Track B</p>
-</div>
-</div>
+# モデルタイムテーブル ② PHPを書いていない方
 
-* **選んだ理由**
-  * エラー対応は、誰かが拾わないと流れていく **地味な仕事**
-  * それを拾い続けることが **地力とオーナーシップ** になる、という視点
-  * 言語を問わず、**明日の自分の仕事** にそのまま持ち帰れる
+<p class="note"><strong>言語を問わず</strong> 楽しめるトークを軸に。11:20・14:10 は両トラックとも PHP寄りなので、言語に依存しにくい方を選んだ</p>
 
----
+| 時刻 | 聴くもの・やること | ポイント |
+|---|---|---|
+| 10:00 | オープニング → **10:15 グループで自己紹介** | 最初の話し相手ができる |
+| 10:50 B | meiheiさん：エラーのボールを拾い続ける<span class="tag">言語を問わず</span> | 明日の仕事に持ち帰れる |
+| 11:20 A | 村田祐葵さん：型の本質 | 金額と個数を混ぜない |
+| 11:50 B | sizuhikoさん：WasmでPHPとJSの壁を壊す<span class="tag">言語を問わず</span> | フロントの人にも |
+| 12:10 | お昼（お弁当）・12:30 スポンサーのエレベーターピッチ／LT | 各社の技術が聞ける |
+| 13:00 | アンカンファレンス・OST | その場でテーマを持ち寄る |
+| 14:10 B | 松尾篤さん：ASTでバージョンアップを見抜く | テスト工数を減らす |
+| 14:40 A | 小泉岳人さん：生成AIでチーム開発する7つのポイント<span class="tag">初心者向け</span><span class="tag">言語を問わず</span> | 漫画で整理 |
+| 15:10 A | wakabaさん：AIコーディングのコンテキスト承継<span class="tag">新潟枠</span><span class="tag">言語を問わず</span> | 作業日誌と判断基準 |
+| 15:40 A | ゆずねりさん：WebPはなぜ軽いのか<span class="tag">初心者向け</span><span class="tag">言語を問わず</span> | 数式なしの図で |
+| 16:15〜 | LT：**かはぴぴさん**（斧を研ぐ）・**fkuMnkさん**（PHP Foundation）・**あくしもさん**<span class="tag">新潟枠</span>（新潟の364日） | コードの外の話も |
+| 17:30 | エンディング → **懇親会** | 1日で知り合った人ともう一歩深く |
 
-# 2. はじめてのLaravelコントリビュート<span class="tag">初登壇</span>
-
-<div class="pick">
-<img src="./images/speakers/04-asuto.png" alt="あすと.さん">
-<div>
-<p class="pick-title">OSSコントリビュート未経験者がLaravelに新規メソッドを追加するまでの話</p>
-<p class="pick-speaker">あすと.さん（@ast_and_kaya）｜11:20 Track B</p>
-</div>
-</div>
-
-* **選んだ理由**
-  * 「OSSに貢献したい」と思っても、**最初のPRまでが遠い**
-  * 未経験から **`whenEnum()` のPRがマージされるまで** の流れが聞ける
-  * Laravelの哲学にも触れる。**Laravelを知らなくてもwelcome**
-
----
-
-# 3. AIレビューでバージョンアップ<span class="tag">初登壇</span>
-
-<div class="pick">
-<img src="./images/speakers/10-zaki.jpg" alt="ざきさん">
-<div>
-<p class="pick-title">AI駆動で挑む！？レガシーPHPプロダクトのバージョンアップへの軌跡</p>
-<p class="pick-speaker">ざきさん（@k_yamasaki_zaki）｜14:40 Track B</p>
-</div>
-</div>
-
-* **選んだ理由**
-  * **8万テーブルの生PHP** を、**PHP 7.3 から 8.4** へ
-  * AIにレビューさせながら進める、**AI時代のレガシー改修** の実例
-  * きれいな成功談だけでなく、**失敗談** も聞ける
+<!--
+言語を問わずタグを軸に選んだルート（research-memo.md の旧ルートB）。Track A の7本だけで回る選び方もある（13枚目）。
+-->
 
 ---
 
