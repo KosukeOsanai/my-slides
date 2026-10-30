@@ -212,7 +212,7 @@ https://phpcon.niigata.jp/
 | 15:40 A | imagewebp()の向こう側―WebPはなぜ JPEG・PNGより軽いのか<span class="hl"><span class="kw">Web・画像</span>｜2つのコーデックを数式なしの図で解説</span> | ゆずねりさん |
 | 16:25 <span class="lt">LT</span> | 手の動かし方がわからなかった私が個人開発者になるまで<span class="hl"><span class="kw">個人開発</span>｜未経験からWebアプリ公開まで</span> | ポチさん |
 | 16:30 <span class="lt">LT</span> | 私のコードは、ぜんぶAIが書いていた 〜2年目、写経で取り戻す〜<span class="hl"><span class="kw">学び直し</span>｜AIの出力を写経しながら、AIと壁打ち</span> | 永瀬博之さん |
-| 17:10 <span class="lt">LT</span> | The PHP Foundation ： 推しの組織は謎組織♥️<span class="hl"><span class="kw">OSS</span>｜言語を支える財団は何をしているのか</span> | fkuMnkさん |
+| 17:10 <span class="lt">LT</span> | The PHP Foundation ： 推しの組織は謎組織♥<span class="hl"><span class="kw">OSS</span>｜言語を支える財団は何をしているのか</span> | fkuMnkさん |
 | 17:15 <span class="lt">LT</span> | “まず動く”と、なぜ世界が広がるのか<span class="hl"><span class="kw">コミュニティ</span>｜1枚のTシャツから、新潟のコアスタッフへ</span> | 河村直樹さん |
 
 <p class="note"><strong>7本とも Track A</strong>：<span class="tag">初心者向け</span>かつ<span class="tag">言語を問わず</span>のトーク。Track A にいれば全部聴けます</p>
@@ -385,7 +385,7 @@ PHP歴が短い方は③から、PHP以外がメインの方は「言語を問�
 | 時刻 | セッション / キーワード｜見どころ | 登壇者 |
 |---|---|---|
 | 16:35 <span class="lt">LT</span> | 斧を (物理的に) 研ぐということ<span class="tag">言語を問わず</span><span class="hl"><span class="kw">道具・準備</span>｜林業に携わる登壇者が、チェンソーを研ぐ</span> | かはぴぴさん |
-| 17:10 <span class="lt">LT</span> | The PHP Foundation ： 推しの組織は謎組織♥️<span class="tag">初心者向け</span><span class="tag">言語を問わず</span><span class="hl"><span class="kw">PHP Foundation・OSS</span>｜設立から約5年、財団は何をしているのか</span> | fkuMnkさん |
+| 17:10 <span class="lt">LT</span> | The PHP Foundation ： 推しの組織は謎組織♥<span class="tag">初心者向け</span><span class="tag">言語を問わず</span><span class="hl"><span class="kw">PHP Foundation・OSS</span>｜設立から約5年、財団は何をしているのか</span> | fkuMnkさん |
 | 17:20 <span class="lt">LT</span> | 新潟の364日を考えよう<span class="tag">新潟枠</span><span class="tag">言語を問わず</span><span class="hl"><span class="kw">地域コミュニティ</span>｜東京から移住した運営者が語る、地方コミュニティのリアル</span> | あくしもさん |
 
 <p class="note"><strong>こんな人に聴いてほしい</strong>：コードの外から刺激がほしい人</p>
@@ -430,7 +430,7 @@ PHP歴が短い方は③から、PHP以外がメインの方は「言語を問�
 
 # モデルタイムテーブル ② PHPを書いていない方
 
-<p class="note"><strong>言語を問わず</strong> 楽しめるトークを軸に。11:20・14:10 は両トラックとも PHP寄りなので、言語に依存しにくい方を選んだ</p>
+<p class="note"><strong>言語を問わず</strong> 楽しめるトークを軸に、PHPを書かなくても持ち帰れるものを</p>
 
 | 時刻 | 聴くもの・やること | ポイント |
 |---|---|---|
@@ -448,7 +448,7 @@ PHP歴が短い方は③から、PHP以外がメインの方は「言語を問�
 | 17:30 | エンディング → **懇親会** | 1日で知り合った人ともう一歩深く |
 
 <!--
-言語を問わずタグを軸に選んだルート（research-memo.md の旧ルートB）。Track A の7本だけで回る選び方もある（13枚目）。
+言語を問わずタグを軸に選んだルート（research-memo.md の旧ルートB）。11:20・14:10 は両トラックとも PHP寄りなので、言語に依存しにくい方を選んだ。Track A の7本だけで回る選び方もある（13枚目）。
 -->
 
 ---
