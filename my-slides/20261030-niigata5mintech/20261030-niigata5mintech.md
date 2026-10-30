@@ -50,6 +50,9 @@ style: |
   img.emoji { display: inline !important; height: 1em; width: auto; margin: 0 0.05em; vertical-align: -0.1em; }
   .hl { display: block; margin-top: 2px; color: var(--color-muted); font-size: 0.82em; font-weight: 500; }
   section.compact table { font-size: 0.58em; }
+  section.persona table { font-size: 0.95em; width: 100%; margin-top: 24px; }
+  section.persona td, section.persona th { padding: 0.6em 0.8em; white-space: normal !important; }
+  section.persona .note { font-size: 26px; margin-top: 1em; }
   section.types td, section.types th { white-space: normal !important; }
   section.types table { font-size: 0.66em; width: 100%; }
   section.route table { font-size: 0.6em; }
@@ -187,7 +190,7 @@ https://phpcon.niigata.jp/
 
 ---
 
-<!-- _class: types -->
+<!-- _class: persona -->
 
 # こんな方に楽しんでほしくて選びました
 
