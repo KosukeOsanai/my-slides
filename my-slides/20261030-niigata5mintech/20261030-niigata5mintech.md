@@ -475,7 +475,7 @@ OST は Open Space Technology（その場でテーマを出し合い、興味の
 
 ---
 
-# セッション間は新潟企業様の飲食物で休憩
+# セッションの合間は、新潟の甘酒とコーヒーで
 
 <div class="bento">
 <figure><img src="./images/amazake-kouji.jpg" alt="今代司の甘酒"><figcaption>今代司 の甘酒</figcaption></figure>
@@ -514,6 +514,9 @@ https://www.niigata-sanshinken.co.jp/products/2585/ , https://www.niigata-sanshi
 # 懇親会は新潟グルメで舌鼓を打ちましょう
 
 * **懇親会のごはん**：昨年は利き酒コーナーや、新潟名物 **タレカツ** も
+* 全国から来たエンジニアと、新潟の参加者が交わる場
+* 朝の自己紹介や昼のアンカンファレンスで **1日で知り合った人** と、もう一歩深く
+* 自己紹介のお題「好きな日本酒」の答え合わせも
 
 ---
 
