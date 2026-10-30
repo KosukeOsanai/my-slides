@@ -50,6 +50,8 @@ style: |
   img.emoji { display: inline !important; height: 1em; width: auto; margin: 0 0.05em; vertical-align: -0.1em; }
   .hl { display: block; margin-top: 2px; color: var(--color-muted); font-size: 0.82em; font-weight: 500; }
   section.compact table { font-size: 0.58em; }
+  section.types td, section.types th { white-space: normal !important; }
+  section.types table { font-size: 0.66em; width: 100%; }
   section.route table { font-size: 0.6em; }
   section.route td, section.route th { padding: 0.18em 0.5em; }
   section.route .note { margin: 0 0 0.3em; font-size: 20px; }
@@ -395,13 +397,26 @@ PHP歴が短い方は③から、PHP以外がメインの方は「言語を問�
 
 <!-- _class: message -->
 
-# モデルタイムテーブル<span class="sub">Model routes</span>
+# タイプ別モデルルート<span class="sub">Model routes</span>
+
+---
+
+<!-- _class: types -->
+
+# あなたはどのタイプ？
+
+| タイプ | こんな方 | 選び方 → 1日で聴けるもの |
+|---|---|---|
+| **① はじめての方** | カンファレンスやPHPがはじめての方 | <span class="tag">初心者向け</span> を軸に → 設計・OSS・AI・テスト・画像の基本を一通り |
+| **② PHPを書いていない方** | メイン言語がPHP以外の方 | <span class="tag">言語を問わず</span> を軸に → 運用・Wasm・AI・画像、コードの外の話まで |
+
+<p class="note">どちらも朝の自己紹介から懇親会まで。気になる枠は、もう片方のトラックに移ってもOK</p>
 
 ---
 
 <!-- _class: sessions route -->
 
-# モデルタイムテーブル ① はじめての方
+# ルート① はじめての方
 
 <p class="note">カンファレンスやPHPがはじめての方へ。<strong>初心者向け</strong> のトークを軸に、設計・OSS・テストの基本を一通り</p>
 
@@ -428,7 +443,7 @@ PHP歴が短い方は③から、PHP以外がメインの方は「言語を問�
 
 <!-- _class: sessions route -->
 
-# モデルタイムテーブル ② PHPを書いていない方
+# ルート② PHPを書いていない方
 
 <p class="note"><strong>言語を問わず</strong> 楽しめるトークを軸に、PHPを書かなくても持ち帰れるものを</p>
 
