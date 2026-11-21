@@ -34,7 +34,8 @@ style: |
   .qs { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; width: 100%; margin-top: 32px; }
   .qs .q { border: 2px solid var(--color-accent); border-radius: 16px; background: var(--color-code-bg); padding: 28px 32px; text-align: left; }
   .qs .label { font-size: 40px; font-weight: 800; color: var(--color-accent); margin-bottom: 12px; }
-  .qs .text { font-size: 34px; font-weight: 700; line-height: 1.55; }
+  .qs .text { font-size: 32px; font-weight: 700; line-height: 1.55; }
+  .qs .text .kw { white-space: nowrap; }
 ---
 
 <!-- _class: title -->
@@ -109,8 +110,8 @@ style: |
 # 終わってから考えた、2つの問い
 
 <div class="qs">
-  <div class="q"><div class="label">Q1</div><div class="text">PHPカンファレンス新潟は、<span class="kw">来年以降も開催できる体制</span>か？</div></div>
-  <div class="q"><div class="label">Q2</div><div class="text">新潟2026は、新潟の<span class="kw">普段のコミュニティ</span>とつながれていたか？</div></div>
+  <div class="q"><div class="label">Q1</div><div class="text">PHPカンファレンス新潟は、<br><span class="kw">来年以降も開催できる体制</span>か？</div></div>
+  <div class="q"><div class="label">Q2</div><div class="text">新潟2026は、新潟の<br><span class="kw">普段のコミュニティ</span>と<br>つながれていたか？</div></div>
 </div>
 
 <!--
